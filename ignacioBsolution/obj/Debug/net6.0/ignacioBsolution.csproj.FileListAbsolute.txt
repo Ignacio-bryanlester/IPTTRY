@@ -1,0 +1,62 @@
+C:\Users\Personal Computer\source\repos\ignacioBsolution\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Personal Computer\source\repos\ignacioBsolution\bin\Debug\net6.0\appsettings.json
+C:\Users\Personal Computer\source\repos\ignacioBsolution\bin\Debug\net6.0\ignacioBsolution.staticwebassets.runtime.json
+C:\Users\Personal Computer\source\repos\ignacioBsolution\bin\Debug\net6.0\ignacioBsolution.exe
+C:\Users\Personal Computer\source\repos\ignacioBsolution\bin\Debug\net6.0\ignacioBsolution.deps.json
+C:\Users\Personal Computer\source\repos\ignacioBsolution\bin\Debug\net6.0\ignacioBsolution.runtimeconfig.json
+C:\Users\Personal Computer\source\repos\ignacioBsolution\bin\Debug\net6.0\ignacioBsolution.dll
+C:\Users\Personal Computer\source\repos\ignacioBsolution\bin\Debug\net6.0\ignacioBsolution.pdb
+C:\Users\Personal Computer\source\repos\ignacioBsolution\obj\Debug\net6.0\ignacioBsolution.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Personal Computer\source\repos\ignacioBsolution\obj\Debug\net6.0\ignacioBsolution.AssemblyInfoInputs.cache
+C:\Users\Personal Computer\source\repos\ignacioBsolution\obj\Debug\net6.0\ignacioBsolution.AssemblyInfo.cs
+C:\Users\Personal Computer\source\repos\ignacioBsolution\obj\Debug\net6.0\ignacioBsolution.csproj.CoreCompileInputs.cache
+C:\Users\Personal Computer\source\repos\ignacioBsolution\obj\Debug\net6.0\ignacioBsolution.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Personal Computer\source\repos\ignacioBsolution\obj\Debug\net6.0\ignacioBsolution.RazorAssemblyInfo.cache
+C:\Users\Personal Computer\source\repos\ignacioBsolution\obj\Debug\net6.0\ignacioBsolution.RazorAssemblyInfo.cs
+C:\Users\Personal Computer\source\repos\ignacioBsolution\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Personal Computer\source\repos\ignacioBsolution\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Personal Computer\source\repos\ignacioBsolution\obj\Debug\net6.0\staticwebassets\msbuild.ignacioBsolution.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Personal Computer\source\repos\ignacioBsolution\obj\Debug\net6.0\staticwebassets\msbuild.build.ignacioBsolution.props
+C:\Users\Personal Computer\source\repos\ignacioBsolution\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ignacioBsolution.props
+C:\Users\Personal Computer\source\repos\ignacioBsolution\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ignacioBsolution.props
+C:\Users\Personal Computer\source\repos\ignacioBsolution\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Personal Computer\source\repos\ignacioBsolution\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Personal Computer\source\repos\ignacioBsolution\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\Personal Computer\source\repos\ignacioBsolution\obj\Debug\net6.0\scopedcss\bundle\ignacioBsolution.styles.css
+C:\Users\Personal Computer\source\repos\ignacioBsolution\obj\Debug\net6.0\scopedcss\projectbundle\ignacioBsolution.bundle.scp.css
+C:\Users\Personal Computer\source\repos\ignacioBsolution\obj\Debug\net6.0\ignacioBsolution.dll
+C:\Users\Personal Computer\source\repos\ignacioBsolution\obj\Debug\net6.0\refint\ignacioBsolution.dll
+C:\Users\Personal Computer\source\repos\ignacioBsolution\obj\Debug\net6.0\ignacioBsolution.pdb
+C:\Users\Personal Computer\source\repos\ignacioBsolution\obj\Debug\net6.0\ignacioBsolution.genruntimeconfig.cache
+C:\Users\Personal Computer\source\repos\ignacioBsolution\obj\Debug\net6.0\ref\ignacioBsolution.dll
+G:\Repos\repos\ignacioBsolution\bin\Debug\net6.0\appsettings.Development.json
+G:\Repos\repos\ignacioBsolution\bin\Debug\net6.0\appsettings.json
+G:\Repos\repos\ignacioBsolution\bin\Debug\net6.0\ignacioBsolution.staticwebassets.runtime.json
+G:\Repos\repos\ignacioBsolution\bin\Debug\net6.0\ignacioBsolution.exe
+G:\Repos\repos\ignacioBsolution\bin\Debug\net6.0\ignacioBsolution.deps.json
+G:\Repos\repos\ignacioBsolution\bin\Debug\net6.0\ignacioBsolution.runtimeconfig.json
+G:\Repos\repos\ignacioBsolution\bin\Debug\net6.0\ignacioBsolution.dll
+G:\Repos\repos\ignacioBsolution\bin\Debug\net6.0\ignacioBsolution.pdb
+G:\Repos\repos\ignacioBsolution\obj\Debug\net6.0\ignacioBsolution.GeneratedMSBuildEditorConfig.editorconfig
+G:\Repos\repos\ignacioBsolution\obj\Debug\net6.0\ignacioBsolution.AssemblyInfoInputs.cache
+G:\Repos\repos\ignacioBsolution\obj\Debug\net6.0\ignacioBsolution.AssemblyInfo.cs
+G:\Repos\repos\ignacioBsolution\obj\Debug\net6.0\ignacioBsolution.csproj.CoreCompileInputs.cache
+G:\Repos\repos\ignacioBsolution\obj\Debug\net6.0\ignacioBsolution.MvcApplicationPartsAssemblyInfo.cache
+G:\Repos\repos\ignacioBsolution\obj\Debug\net6.0\ignacioBsolution.RazorAssemblyInfo.cache
+G:\Repos\repos\ignacioBsolution\obj\Debug\net6.0\ignacioBsolution.RazorAssemblyInfo.cs
+G:\Repos\repos\ignacioBsolution\obj\Debug\net6.0\staticwebassets.build.json
+G:\Repos\repos\ignacioBsolution\obj\Debug\net6.0\staticwebassets.development.json
+G:\Repos\repos\ignacioBsolution\obj\Debug\net6.0\staticwebassets\msbuild.ignacioBsolution.Microsoft.AspNetCore.StaticWebAssets.props
+G:\Repos\repos\ignacioBsolution\obj\Debug\net6.0\staticwebassets\msbuild.build.ignacioBsolution.props
+G:\Repos\repos\ignacioBsolution\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ignacioBsolution.props
+G:\Repos\repos\ignacioBsolution\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ignacioBsolution.props
+G:\Repos\repos\ignacioBsolution\obj\Debug\net6.0\staticwebassets.pack.json
+G:\Repos\repos\ignacioBsolution\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+G:\Repos\repos\ignacioBsolution\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+G:\Repos\repos\ignacioBsolution\obj\Debug\net6.0\scopedcss\bundle\ignacioBsolution.styles.css
+G:\Repos\repos\ignacioBsolution\obj\Debug\net6.0\scopedcss\projectbundle\ignacioBsolution.bundle.scp.css
+G:\Repos\repos\ignacioBsolution\obj\Debug\net6.0\ignacioBsolution.dll
+G:\Repos\repos\ignacioBsolution\obj\Debug\net6.0\refint\ignacioBsolution.dll
+G:\Repos\repos\ignacioBsolution\obj\Debug\net6.0\ignacioBsolution.pdb
+G:\Repos\repos\ignacioBsolution\obj\Debug\net6.0\ignacioBsolution.genruntimeconfig.cache
+G:\Repos\repos\ignacioBsolution\obj\Debug\net6.0\ref\ignacioBsolution.dll
