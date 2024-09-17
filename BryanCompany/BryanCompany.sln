@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BryanCompany", "BryanCompany.sqlproj", "{FBE79D14-F304-472D-9955-548D23457835}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBE79D14-F304-472D-9955-548D23457835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBE79D14-F304-472D-9955-548D23457835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBE79D14-F304-472D-9955-548D23457835}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FBE79D14-F304-472D-9955-548D23457835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBE79D14-F304-472D-9955-548D23457835}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBE79D14-F304-472D-9955-548D23457835}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA7C8306-BCAD-427C-94D5-1F98B5203C4E}
+	EndGlobalSection
+EndGlobal
