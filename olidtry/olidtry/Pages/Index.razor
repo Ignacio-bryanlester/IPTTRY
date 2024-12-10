@@ -1,0 +1,82 @@
+﻿@page "/"
+
+<div>
+    <input @bind="NewAccount.AccountName" placeholder="Enter Account Name" />
+    <button @onclick="AddAccount">Add New Account</button>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Account Name</th>
+            <th>Account ID</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var account in Accounts)
+        {
+            <tr>
+                <td>@account.AccountId</td>
+                <td>@account.AccountName</td>
+                <td>@account.AccountId</td>
+                <td>
+                    <button @onclick="() => EditAccount(account)">Edit</button>
+                    <button @onclick="() => DeleteAccount(account.AccountId)">Delete</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    public class Account
+    {
+        public int AccountId { get; set; }
+        public string AccountName { get; set; }
+    }
+
+    private List<Account> Accounts = new();
+    private Account NewAccount = new();
+
+    private void AddAccount()
+    {
+        if (NewAccount.AccountId == 0) // Add new account
+        {
+            NewAccount.AccountId = Accounts.Count + 1; // Assign a new ID based on count
+            Accounts.Add(NewAccount);
+        }
+        else // Update an existing account
+        {
+            UpdateAccount();
+        }
+
+        NewAccount = new Account(); // Reset after adding/updating
+    }
+
+    private void UpdateAccount()
+    {
+        var existingAccount = Accounts.FirstOrDefault(a => a.AccountId == NewAccount.AccountId);
+        if (existingAccount != null)
+        {
+            existingAccount.AccountName = NewAccount.AccountName;
+        }
+    }
+
+    private void EditAccount(Account account)
+    {
+        // Populate the NewAccount object with the account to be edited
+        NewAccount = new Account
+            {
+                AccountId = account.AccountId,
+                AccountName = account.AccountName
+            };
+    }
+
+    private void DeleteAccount(int accountId)
+    {
+        // Remove the account by their ID
+        Accounts.RemoveAll(a => a.AccountId == accountId);
+    }
+}
