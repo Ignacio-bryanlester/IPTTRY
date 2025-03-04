@@ -1,0 +1,104 @@
+﻿@page "/account"
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize(Roles = "Admin")]
+<h3>Account</h3>
+<div>
+    <label>AccountName</label>
+    <input @bind="NewAccount.AccountName" />
+    <button @onclick="Create_Account">Add</button>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <td>AccountId</td>
+            <td>AccountName</td>
+            <td>Actions</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var a in Account_List)
+        {
+            <tr>
+                <td>@a.AccountID</td>
+                <td>@a.AccountName</td>
+                <td>
+                    <button @onclick="() => Delete_Account(a.AccountID)"> Delete</button>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#@($"AccountUpdate{a.AccountID}")">
+                        Edit
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="@($"AccountUpdate{a.AccountID}")" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Update</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <label>AccountName</label>
+                                    <input @bind="a.AccountName" /> <br />
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary" @onclick="()=>Update_Account(a.AccountID,a.AccountName)">Save</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    public static string Search = "";
+
+    public class MyAccount
+    {
+        public int AccountID;
+        public string AccountName;
+    }
+
+    public static MyAccount NewAccount = new MyAccount();
+    public static List<MyAccount> Account_List = new();
+
+    protected override void OnInitialized()
+    {
+        Read_Account();
+    }
+
+    public static void Create_Account()
+    {
+        Account_List.Add(new MyAccount
+            {
+                AccountID = Account_List.Count > 0 ? Account_List.Max(a => a.AccountID) + 1 : 1,
+                AccountName = NewAccount.AccountName
+            });
+        NewAccount = new MyAccount();
+    }
+
+    public static void Read_Account()
+    {
+
+    }
+
+    public static void Update_Account(int AccountID, string AccountName)
+    {
+        var account = Account_List.FirstOrDefault(a => a.AccountID == AccountID);
+        if (account != null)
+        {
+            account.AccountName = AccountName;
+        }
+    }
+
+    public static void Delete_Account(int AccountID)
+    {
+        var account = Account_List.FirstOrDefault(a => a.AccountID == AccountID);
+        if (account != null)
+        {
+            Account_List.Remove(account);
+        }
+    }
+}

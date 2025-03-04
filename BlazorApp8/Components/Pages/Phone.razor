@@ -1,0 +1,105 @@
+﻿@page "/phone"
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize(Roles = "Admin")]
+<h3>Phone</h3>
+
+<div>
+    <label>PhoneNumber</label>
+    <input @bind="NewPhone.PhoneNumber" type="number" />
+    <button @onclick="Create_Phone">Add</button>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <td>PhoneID</td>
+            <td>PhoneNumber</td>
+            <td>Actions</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var p in Num_List)
+        {
+            <tr>
+                <td>@p.PhoneID</td>
+                <td>@p.PhoneNumber</td>
+                <td>
+                    <button @onclick="() => Delete_Phone(p.PhoneID)"> Delete</button>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#@($"PhoneUpdate{p.PhoneID}")">
+                        Edit
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="@($"PhoneUpdate{p.PhoneID}")" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Update</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <label>PhoneNumber</label>
+                                    <input @bind="p.PhoneNumber" type="number" /> <br />
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary" @onclick="()=>Update_Phone(p.PhoneID, p.PhoneNumber)">Save</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    public static string Search = "";
+
+    public class MyPhone
+    {
+        public int PhoneID;
+        public string PhoneNumber;
+    }
+
+    public static MyPhone NewPhone = new MyPhone();
+    public static List<MyPhone> Num_List = new();
+
+    protected override void OnInitialized()
+    {
+        Read_Phone();
+    }
+
+    public static void Create_Phone()
+    {
+        Num_List.Add(new MyPhone
+            {
+                PhoneID = Num_List.Count > 0 ? Num_List.Max(p => p.PhoneID) + 1 : 1,
+                PhoneNumber = NewPhone.PhoneNumber
+            });
+        NewPhone = new MyPhone();
+    }
+
+    public static void Read_Phone()
+    {
+        // This function does nothing since there's no database.
+    }
+
+    public static void Update_Phone(int PhoneID, string PhoneNumber)
+    {
+        var phone = Num_List.FirstOrDefault(p => p.PhoneID == PhoneID);
+        if (phone != null)
+        {
+            phone.PhoneNumber = PhoneNumber;
+        }
+    }
+
+    public static void Delete_Phone(int PhoneID)
+    {
+        var phone = Num_List.FirstOrDefault(p => p.PhoneID == PhoneID);
+        if (phone != null)
+        {
+            Num_List.Remove(phone);
+        }
+    }
+}

@@ -1,0 +1,105 @@
+﻿@page "/address"
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize(Roles = "Admin")]
+<h3>Address</h3>
+
+<div>
+    <label>Street</label>
+    <input @bind="NewAddress.Street" />
+    <button @onclick="Create_Address">Add</button>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <td>AddressId</td>
+            <td>Street</td>
+            <td>Actions</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var a in Address_List)
+        {
+            <tr>
+                <td>@a.AddressID</td>
+                <td>@a.Street</td>
+                <td>
+                    <button @onclick="() => Delete_Address(a.AddressID)"> Delete</button>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#@($"AddressUpdate{a.AddressID}")">
+                        Edit
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="@($"AddressUpdate{a.AddressID}")" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Update</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <label>Street</label>
+                                    <input @bind="a.Street" /> <br />
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary" @onclick="()=>Update_Address(a.AddressID,a.Street)">Save</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    public static string Search = "";
+
+    public class MyAddress
+    {
+        public int AddressID;
+        public string Street;
+    }
+
+    public static MyAddress NewAddress = new MyAddress();
+    public static List<MyAddress> Address_List = new();
+
+    protected override void OnInitialized()
+    {
+        Read_Address();
+    }
+
+    public static void Create_Address()
+    {
+        Address_List.Add(new MyAddress
+            {
+                AddressID = Address_List.Count > 0 ? Address_List.Max(a => a.AddressID) + 1 : 1,
+                Street = NewAddress.Street
+            });
+        NewAddress = new MyAddress();
+    }
+
+    public static void Read_Address()
+    {
+
+    }
+
+    public static void Update_Address(int AddressID, string Street)
+    {
+        var address = Address_List.FirstOrDefault(a => a.AddressID == AddressID);
+        if (address != null)
+        {
+            address.Street = Street;
+        }
+    }
+
+    public static void Delete_Address(int AddressID)
+    {
+        var address = Address_List.FirstOrDefault(a => a.AddressID == AddressID);
+        if (address != null)
+        {
+            Address_List.Remove(address);
+        }
+    }
+}
