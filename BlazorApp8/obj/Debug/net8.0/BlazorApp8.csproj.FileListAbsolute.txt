@@ -309,3 +309,4 @@ C:\bryan\IPTTRY\BlazorApp8\bin\Debug\net8.0\Microsoft.JSInterop.dll
 C:\bryan\IPTTRY\BlazorApp8\obj\Debug\net8.0\jsmodules\jsmodules.build.manifest.json
 C:\bryan\IPTTRY\BlazorApp8\obj\Debug\net8.0\scopedcss\Components\Pages\Mine.razor.rz.scp.css
 C:\bryan\IPTTRY\BlazorApp8\obj\Debug\net8.0\scopedcss\Components\Pages\Carousel.razor.rz.scp.css
+C:\bryan\IPTTRY\BlazorApp8\obj\Debug\net8.0\scopedcss\Components\Pages\Java.razor.rz.scp.css

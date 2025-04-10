@@ -230,6 +230,10 @@ build_metadata.AdditionalFiles.CssScope = b-ht3owmx07s
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYXJvdXNlbC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-zex3u5vgjh
 
+[C:/bryan/IPTTRY/BlazorApp8/Components/Pages/Java.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xKYXZhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-2i7t8kkqyh
+
 [C:/bryan/IPTTRY/BlazorApp8/Components/Pages/Mine.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xNaW5lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-ews0egbc52

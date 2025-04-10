@@ -3,36 +3,52 @@
   "WorkspaceRootPath": "C:\\bryan\\IPTTRY\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9B9707B9-655C-4C12-AB4E-34DB7822E1F1}|BlazorApp8\\BlazorApp8.csproj|c:\\bryan\\ipttry\\blazorapp8\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9B9707B9-655C-4C12-AB4E-34DB7822E1F1}|BlazorApp8\\BlazorApp8.csproj|solutionrelative:blazorapp8\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9B9707B9-655C-4C12-AB4E-34DB7822E1F1}|BlazorApp8\\BlazorApp8.csproj|c:\\bryan\\ipttry\\blazorapp8\\wwwroot\\java.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{9B9707B9-655C-4C12-AB4E-34DB7822E1F1}|BlazorApp8\\BlazorApp8.csproj|solutionrelative:blazorapp8\\wwwroot\\java.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B9707B9-655C-4C12-AB4E-34DB7822E1F1}|BlazorApp8\\BlazorApp8.csproj|c:\\bryan\\ipttry\\blazorapp8\\components\\pages\\carousel.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9B9707B9-655C-4C12-AB4E-34DB7822E1F1}|BlazorApp8\\BlazorApp8.csproj|solutionrelative:blazorapp8\\components\\pages\\carousel.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9B9707B9-655C-4C12-AB4E-34DB7822E1F1}|BlazorApp8\\BlazorApp8.csproj|c:\\bryan\\ipttry\\blazorapp8\\components\\pages\\java.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9B9707B9-655C-4C12-AB4E-34DB7822E1F1}|BlazorApp8\\BlazorApp8.csproj|solutionrelative:blazorapp8\\components\\pages\\java.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B9707B9-655C-4C12-AB4E-34DB7822E1F1}|BlazorApp8\\BlazorApp8.csproj|c:\\bryan\\ipttry\\blazorapp8\\components\\pages\\mine.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{9B9707B9-655C-4C12-AB4E-34DB7822E1F1}|BlazorApp8\\BlazorApp8.csproj|solutionrelative:blazorapp8\\components\\pages\\mine.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B9707B9-655C-4C12-AB4E-34DB7822E1F1}|BlazorApp8\\BlazorApp8.csproj|c:\\bryan\\ipttry\\blazorapp8\\components\\pages\\mine.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9B9707B9-655C-4C12-AB4E-34DB7822E1F1}|BlazorApp8\\BlazorApp8.csproj|solutionrelative:blazorapp8\\components\\pages\\mine.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B9707B9-655C-4C12-AB4E-34DB7822E1F1}|BlazorApp8\\BlazorApp8.csproj|c:\\bryan\\ipttry\\blazorapp8\\components\\pages\\carousel.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{9B9707B9-655C-4C12-AB4E-34DB7822E1F1}|BlazorApp8\\BlazorApp8.csproj|solutionrelative:blazorapp8\\components\\pages\\carousel.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{9B9707B9-655C-4C12-AB4E-34DB7822E1F1}|BlazorApp8\\BlazorApp8.csproj|c:\\bryan\\ipttry\\blazorapp8\\components\\pages\\java.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B9707B9-655C-4C12-AB4E-34DB7822E1F1}|BlazorApp8\\BlazorApp8.csproj|solutionrelative:blazorapp8\\components\\pages\\java.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9B9707B9-655C-4C12-AB4E-34DB7822E1F1}|BlazorApp8\\BlazorApp8.csproj|c:\\bryan\\ipttry\\blazorapp8\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9B9707B9-655C-4C12-AB4E-34DB7822E1F1}|BlazorApp8\\BlazorApp8.csproj|solutionrelative:blazorapp8\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9B9707B9-655C-4C12-AB4E-34DB7822E1F1}|BlazorApp8\\BlazorApp8.csproj|c:\\bryan\\ipttry\\blazorapp8\\components\\pages\\auth.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B9707B9-655C-4C12-AB4E-34DB7822E1F1}|BlazorApp8\\BlazorApp8.csproj|solutionrelative:blazorapp8\\components\\pages\\auth.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B9707B9-655C-4C12-AB4E-34DB7822E1F1}|BlazorApp8\\BlazorApp8.csproj|c:\\bryan\\ipttry\\blazorapp8\\components\\pages\\mine.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9B9707B9-655C-4C12-AB4E-34DB7822E1F1}|BlazorApp8\\BlazorApp8.csproj|solutionrelative:blazorapp8\\components\\pages\\mine.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9B9707B9-655C-4C12-AB4E-34DB7822E1F1}|BlazorApp8\\BlazorApp8.csproj|c:\\bryan\\ipttry\\blazorapp8\\components\\pages\\fluent_ui.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9B9707B9-655C-4C12-AB4E-34DB7822E1F1}|BlazorApp8\\BlazorApp8.csproj|solutionrelative:blazorapp8\\components\\pages\\fluent_ui.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9B9707B9-655C-4C12-AB4E-34DB7822E1F1}|BlazorApp8\\BlazorApp8.csproj|c:\\bryan\\ipttry\\blazorapp8\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B9707B9-655C-4C12-AB4E-34DB7822E1F1}|BlazorApp8\\BlazorApp8.csproj|solutionrelative:blazorapp8\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9B9707B9-655C-4C12-AB4E-34DB7822E1F1}|BlazorApp8\\BlazorApp8.csproj|c:\\bryan\\ipttry\\blazorapp8\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{9B9707B9-655C-4C12-AB4E-34DB7822E1F1}|BlazorApp8\\BlazorApp8.csproj|solutionrelative:blazorapp8\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B9707B9-655C-4C12-AB4E-34DB7822E1F1}|BlazorApp8\\BlazorApp8.csproj|c:\\bryan\\ipttry\\blazorapp8\\components\\pages\\mine.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B9707B9-655C-4C12-AB4E-34DB7822E1F1}|BlazorApp8\\BlazorApp8.csproj|solutionrelative:blazorapp8\\components\\pages\\mine.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B9707B9-655C-4C12-AB4E-34DB7822E1F1}|BlazorApp8\\BlazorApp8.csproj|c:\\bryan\\ipttry\\blazorapp8\\components\\pages\\carousel.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B9707B9-655C-4C12-AB4E-34DB7822E1F1}|BlazorApp8\\BlazorApp8.csproj|solutionrelative:blazorapp8\\components\\pages\\carousel.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B9707B9-655C-4C12-AB4E-34DB7822E1F1}|BlazorApp8\\BlazorApp8.csproj|c:\\bryan\\ipttry\\blazorapp8\\components\\pages\\carousel.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9B9707B9-655C-4C12-AB4E-34DB7822E1F1}|BlazorApp8\\BlazorApp8.csproj|solutionrelative:blazorapp8\\components\\pages\\carousel.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9B9707B9-655C-4C12-AB4E-34DB7822E1F1}|BlazorApp8\\BlazorApp8.csproj|c:\\bryan\\ipttry\\blazorapp8\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -62,8 +78,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Java.razor.css",
+              "DocumentMoniker": "C:\\bryan\\IPTTRY\\BlazorApp8\\Components\\Pages\\Java.razor.css",
+              "RelativeDocumentMoniker": "BlazorApp8\\Components\\Pages\\Java.razor.css",
+              "ToolTip": "C:\\bryan\\IPTTRY\\BlazorApp8\\Components\\Pages\\Java.razor.css",
+              "RelativeToolTip": "BlazorApp8\\Components\\Pages\\Java.razor.css",
+              "ViewState": "AgIAABYAAAAAAAAAAAAowCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-10T02:13:12.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Java.razor",
+              "DocumentMoniker": "C:\\bryan\\IPTTRY\\BlazorApp8\\Components\\Pages\\Java.razor",
+              "RelativeDocumentMoniker": "BlazorApp8\\Components\\Pages\\Java.razor",
+              "ToolTip": "C:\\bryan\\IPTTRY\\BlazorApp8\\Components\\Pages\\Java.razor",
+              "RelativeToolTip": "BlazorApp8\\Components\\Pages\\Java.razor",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-10T02:11:55.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainLayout.razor.css",
+              "DocumentMoniker": "C:\\bryan\\IPTTRY\\BlazorApp8\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeDocumentMoniker": "BlazorApp8\\Components\\Layout\\MainLayout.razor.css",
+              "ToolTip": "C:\\bryan\\IPTTRY\\BlazorApp8\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeToolTip": "BlazorApp8\\Components\\Layout\\MainLayout.razor.css",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAFoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-09T09:37:15.216Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 6,
@@ -74,49 +129,77 @@
               "RelativeToolTip": "BlazorApp8\\Components\\Pages\\Fluent_UI.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-25T01:18:16.322Z"
+              "WhenOpened": "2025-03-25T01:18:16.322Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Mine.razor.css",
+              "DocumentMoniker": "C:\\bryan\\IPTTRY\\BlazorApp8\\Components\\Pages\\Mine.razor.css",
+              "RelativeDocumentMoniker": "BlazorApp8\\Components\\Pages\\Mine.razor.css",
+              "ToolTip": "C:\\bryan\\IPTTRY\\BlazorApp8\\Components\\Pages\\Mine.razor.css",
+              "RelativeToolTip": "BlazorApp8\\Components\\Pages\\Mine.razor.css",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAYwFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-09T08:50:33.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\bryan\\IPTTRY\\BlazorApp8\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "BlazorApp8\\Components\\Layout\\NavMenu.razor",
               "ToolTip": "C:\\bryan\\IPTTRY\\BlazorApp8\\Components\\Layout\\NavMenu.razor",
               "RelativeToolTip": "BlazorApp8\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAABiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-25T01:11:19.123Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Carousel.razor",
-              "DocumentMoniker": "C:\\bryan\\IPTTRY\\BlazorApp8\\Components\\Pages\\Carousel.razor",
-              "RelativeDocumentMoniker": "BlazorApp8\\Components\\Pages\\Carousel.razor",
-              "ToolTip": "C:\\bryan\\IPTTRY\\BlazorApp8\\Components\\Pages\\Carousel.razor",
-              "RelativeToolTip": "BlazorApp8\\Components\\Pages\\Carousel.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-09T09:12:48.237Z",
+              "WhenOpened": "2025-03-25T01:11:19.123Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "java.js",
+              "DocumentMoniker": "C:\\bryan\\IPTTRY\\BlazorApp8\\wwwroot\\java.js",
+              "RelativeDocumentMoniker": "BlazorApp8\\wwwroot\\java.js",
+              "ToolTip": "C:\\bryan\\IPTTRY\\BlazorApp8\\wwwroot\\java.js",
+              "RelativeToolTip": "BlazorApp8\\wwwroot\\java.js",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-10T02:21:13.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Auth.razor",
+              "DocumentMoniker": "C:\\bryan\\IPTTRY\\BlazorApp8\\Components\\Pages\\Auth.razor",
+              "RelativeDocumentMoniker": "BlazorApp8\\Components\\Pages\\Auth.razor",
+              "ToolTip": "C:\\bryan\\IPTTRY\\BlazorApp8\\Components\\Pages\\Auth.razor",
+              "RelativeToolTip": "BlazorApp8\\Components\\Pages\\Auth.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-10T02:24:51.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\bryan\\IPTTRY\\BlazorApp8\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "BlazorApp8\\Components\\Layout\\MainLayout.razor",
               "ToolTip": "C:\\bryan\\IPTTRY\\BlazorApp8\\Components\\Layout\\MainLayout.razor",
               "RelativeToolTip": "BlazorApp8\\Components\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-09T09:27:18.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "Carousel.razor.css",
               "DocumentMoniker": "C:\\bryan\\IPTTRY\\BlazorApp8\\Components\\Pages\\Carousel.razor.css",
               "RelativeDocumentMoniker": "BlazorApp8\\Components\\Pages\\Carousel.razor.css",
@@ -128,7 +211,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
+              "Title": "Carousel.razor",
+              "DocumentMoniker": "C:\\bryan\\IPTTRY\\BlazorApp8\\Components\\Pages\\Carousel.razor",
+              "RelativeDocumentMoniker": "BlazorApp8\\Components\\Pages\\Carousel.razor",
+              "ToolTip": "C:\\bryan\\IPTTRY\\BlazorApp8\\Components\\Pages\\Carousel.razor",
+              "RelativeToolTip": "BlazorApp8\\Components\\Pages\\Carousel.razor",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAuwHIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-09T09:12:48.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Mine.razor",
               "DocumentMoniker": "C:\\bryan\\IPTTRY\\BlazorApp8\\Components\\Pages\\Mine.razor",
               "RelativeDocumentMoniker": "BlazorApp8\\Components\\Pages\\Mine.razor",
@@ -141,32 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Mine.razor.css",
-              "DocumentMoniker": "C:\\bryan\\IPTTRY\\BlazorApp8\\Components\\Pages\\Mine.razor.css",
-              "RelativeDocumentMoniker": "BlazorApp8\\Components\\Pages\\Mine.razor.css",
-              "ToolTip": "C:\\bryan\\IPTTRY\\BlazorApp8\\Components\\Pages\\Mine.razor.css",
-              "RelativeToolTip": "BlazorApp8\\Components\\Pages\\Mine.razor.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-09T08:50:33.777Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainLayout.razor.css",
-              "DocumentMoniker": "C:\\bryan\\IPTTRY\\BlazorApp8\\Components\\Layout\\MainLayout.razor.css",
-              "RelativeDocumentMoniker": "BlazorApp8\\Components\\Layout\\MainLayout.razor.css",
-              "ToolTip": "C:\\bryan\\IPTTRY\\BlazorApp8\\Components\\Layout\\MainLayout.razor.css",
-              "RelativeToolTip": "BlazorApp8\\Components\\Layout\\MainLayout.razor.css",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAAFoAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-09T09:37:15.216Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\bryan\\IPTTRY\\BlazorApp8\\Components\\_Imports.razor",
               "RelativeDocumentMoniker": "BlazorApp8\\Components\\_Imports.razor",
@@ -178,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "App.razor",
               "DocumentMoniker": "C:\\bryan\\IPTTRY\\BlazorApp8\\Components\\App.razor",
               "RelativeDocumentMoniker": "BlazorApp8\\Components\\App.razor",
@@ -190,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\bryan\\IPTTRY\\BlazorApp8\\Program.cs",
               "RelativeDocumentMoniker": "BlazorApp8\\Program.cs",
@@ -202,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "Slide1.jpg -  [English (United Kingdom)] - Bitmap [766x737, 24 bit, JPG]",
               "DocumentMoniker": "C:\\bryan\\IPTTRY\\BlazorApp8\\wwwroot\\img\\Slide1.jpg",
               "RelativeDocumentMoniker": "BlazorApp8\\wwwroot\\img\\Slide1.jpg",
@@ -214,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "bootstrap.min.css",
               "DocumentMoniker": "C:\\bryan\\IPTTRY\\BlazorApp8\\wwwroot\\bootstrap\\bootstrap.min.css",
               "RelativeDocumentMoniker": "BlazorApp8\\wwwroot\\bootstrap\\bootstrap.min.css",

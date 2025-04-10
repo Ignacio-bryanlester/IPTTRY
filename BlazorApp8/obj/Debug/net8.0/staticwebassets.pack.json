@@ -21,12 +21,32 @@
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
+      "Id": "C:\\bryan\\IPTTRY\\BlazorApp8\\wwwroot\\h.jpg",
+      "PackagePath": "staticwebassets\\h.jpg"
+    },
+    {
+      "Id": "C:\\bryan\\IPTTRY\\BlazorApp8\\wwwroot\\h1.jpg",
+      "PackagePath": "staticwebassets\\h1.jpg"
+    },
+    {
+      "Id": "C:\\bryan\\IPTTRY\\BlazorApp8\\wwwroot\\h2.jpg",
+      "PackagePath": "staticwebassets\\h2.jpg"
+    },
+    {
       "Id": "C:\\bryan\\IPTTRY\\BlazorApp8\\wwwroot\\images (1).jpg",
       "PackagePath": "staticwebassets\\images (1).jpg"
     },
     {
       "Id": "C:\\bryan\\IPTTRY\\BlazorApp8\\wwwroot\\img\\Slide1.jpg",
       "PackagePath": "staticwebassets\\img\\Slide1.jpg"
+    },
+    {
+      "Id": "C:\\bryan\\IPTTRY\\BlazorApp8\\wwwroot\\imgs.jpg",
+      "PackagePath": "staticwebassets\\imgs.jpg"
+    },
+    {
+      "Id": "C:\\bryan\\IPTTRY\\BlazorApp8\\wwwroot\\java.js",
+      "PackagePath": "staticwebassets\\java.js"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlazorApp8.Microsoft.AspNetCore.StaticWebAssets.props",

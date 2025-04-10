@@ -229,6 +229,50 @@ main[b-xlse76yprd] {
     }
 }
 /* _content/BlazorApp8/Components/Pages/Carousel.razor.rz.scp.css */
+/* _content/BlazorApp8/Components/Pages/Java.razor.rz.scp.css */
+.carousel-title[b-2i7t8kkqyh] {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 30px;
+    color: #fff;
+}
+
+.swiper[b-2i7t8kkqyh] {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+    background: linear-gradient(145deg, #3f5efb, #fc466b);
+    border-radius: 20px;
+    padding: 30px 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.swiper-slide[b-2i7t8kkqyh] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+    .swiper-slide img[b-2i7t8kkqyh] {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 20px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+        transition: transform 0.4s ease-in-out;
+    }
+
+    .swiper-slide:hover img[b-2i7t8kkqyh] {
+        transform: scale(1.05);
+    }
+
+/* Responsive desktop layout */
+@media (min-width: 768px) {
+    .swiper-slide[b-2i7t8kkqyh] {
+        width: 33.3333%;
+    }
+}
 /* _content/BlazorApp8/Components/Pages/Mine.razor.rz.scp.css */
 .computer-window[b-ews0egbc52] {
     max-width: 600px;
