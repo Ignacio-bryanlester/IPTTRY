@@ -1,0 +1,89 @@
+﻿.computer-window {
+    max-width: 600px;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s ease;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.window-header {
+    background-color: #e0e0e0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+}
+
+    .window-header .dot {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+    }
+
+.red {
+    background-color: #ff5f56;
+}
+
+.yellow {
+    background-color: #ffbd2e;
+}
+
+.green {
+    background-color: #27c93f;
+}
+
+.window-header .title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+    color: #555;
+}
+
+.window-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+/* Color Card Design */
+.color-card {
+    width: 250px;
+    height: 300px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+    background: #fff;
+}
+
+.color-box {
+    height: 60%;
+    transition: background-color 0.3s ease;
+}
+
+.color-info {
+    height: 40%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+    .color-info h2 {
+        margin: 0;
+        font-size: 22px;
+        color: #333;
+    }
+
+    .color-info p {
+        margin-top: 8px;
+        font-size: 14px;
+        color: #666;
+    }

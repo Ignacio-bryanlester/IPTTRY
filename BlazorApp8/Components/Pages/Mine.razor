@@ -1,0 +1,31 @@
+﻿@page "/Mine"
+
+<div class="computer-window" style="background-color:@WindowBackgroundColor;">
+    <div class="window-header">
+        <div class="dot red"></div>
+        <div class="dot yellow"></div>
+        <div class="dot green"></div>
+        <span class="title">Color Card Preview</span>
+    </div>
+
+    <div class="window-body">
+        <div class="color-card"
+             @onmouseover="() => isHovered = true"
+             @onmouseout="() => isHovered = false">
+            <div class="color-box" style="background-color:@CurrentColor;"></div>
+            <div class="color-info">
+                <h2>@(isHovered ? "Orange" : "Purple")</h2>
+                <p>Hover to change the color</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    private bool isHovered = false;
+
+    private string CurrentColor => isHovered ? "#e67e22" : "#8e44ad";
+    private string WindowBackgroundColor => isHovered ? "#fff3e0" : "#f4f4f4"; // light orange vs light gray
+}
+
+

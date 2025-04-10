@@ -1,4 +1,10 @@
-﻿@inherits LayoutComponentBase
+﻿@using Microsoft.FluentUI.AspNetCore.Components
+@inherits LayoutComponentBase
+<FluentToastProvider />
+<FluentDialogProvider />
+<FluentTooltipProvider />
+<FluentMessageBarProvider />
+<FluentMenuProvider />
 
 <div class="page">
     <div class="sidebar">
@@ -11,6 +17,7 @@
         </div>
 
         <article class="content px-4">
+            <img src="/images (1).jpg" />
             @Body
         </article>
     </main>

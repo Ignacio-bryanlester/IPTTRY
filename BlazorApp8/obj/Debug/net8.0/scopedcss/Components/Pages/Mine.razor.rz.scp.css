@@ -1,0 +1,89 @@
+.computer-window[b-ews0egbc52] {
+    max-width: 600px;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s ease;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.window-header[b-ews0egbc52] {
+    background-color: #e0e0e0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+}
+
+    .window-header .dot[b-ews0egbc52] {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+    }
+
+.red[b-ews0egbc52] {
+    background-color: #ff5f56;
+}
+
+.yellow[b-ews0egbc52] {
+    background-color: #ffbd2e;
+}
+
+.green[b-ews0egbc52] {
+    background-color: #27c93f;
+}
+
+.window-header .title[b-ews0egbc52] {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+    color: #555;
+}
+
+.window-body[b-ews0egbc52] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+/* Color Card Design */
+.color-card[b-ews0egbc52] {
+    width: 250px;
+    height: 300px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+    background: #fff;
+}
+
+.color-box[b-ews0egbc52] {
+    height: 60%;
+    transition: background-color 0.3s ease;
+}
+
+.color-info[b-ews0egbc52] {
+    height: 40%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+    .color-info h2[b-ews0egbc52] {
+        margin: 0;
+        font-size: 22px;
+        color: #333;
+    }
+
+    .color-info p[b-ews0egbc52] {
+        margin-top: 8px;
+        font-size: 14px;
+        color: #666;
+    }

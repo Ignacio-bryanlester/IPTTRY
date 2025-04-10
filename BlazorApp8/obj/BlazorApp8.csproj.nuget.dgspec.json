@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ADMIN\\source\\repos\\BlazorApp8\\BlazorApp8\\BlazorApp8.csproj": {}
+    "C:\\bryan\\IPTTRY\\BlazorApp8\\BlazorApp8.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ADMIN\\source\\repos\\BlazorApp8\\BlazorApp8\\BlazorApp8.csproj": {
+    "C:\\bryan\\IPTTRY\\BlazorApp8\\BlazorApp8.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ADMIN\\source\\repos\\BlazorApp8\\BlazorApp8\\BlazorApp8.csproj",
+        "projectUniqueName": "C:\\bryan\\IPTTRY\\BlazorApp8\\BlazorApp8.csproj",
         "projectName": "BlazorApp8",
-        "projectPath": "C:\\Users\\ADMIN\\source\\repos\\BlazorApp8\\BlazorApp8\\BlazorApp8.csproj",
+        "projectPath": "C:\\bryan\\IPTTRY\\BlazorApp8\\BlazorApp8.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ADMIN\\source\\repos\\BlazorApp8\\BlazorApp8\\obj\\",
+        "outputPath": "C:\\bryan\\IPTTRY\\BlazorApp8\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -65,6 +65,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[8.0.13, )"
+            },
+            "Microsoft.FluentUI.AspNetCore.Components": {
+              "target": "Package",
+              "version": "[4.11.7, )"
             }
           },
           "imports": [
@@ -86,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
