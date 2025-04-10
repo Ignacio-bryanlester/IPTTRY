@@ -1,31 +1,114 @@
 ﻿@page "/Carousel"
 
+<style>
+    .slider {
+        width: 100%;
+        max-width: 900px;
+        height: 400px;
+        margin: 2rem auto;
+        border-radius: 1rem;
+        overflow: hidden;
+        position: relative;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    }
+
+    input[type="radio"] {
+        display: none;
+    }
+
+    .slides {
+        display: flex;
+        width: 400%; /* 4 slides */
+        height: 100%;
+        transition: transform 0.6s ease;
+    }
+
+    .slide {
+        width: 100%;
+        height: 100%;
+        flex-shrink: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        font-weight: bold;
+        color: white;
+    }
+
+    .slide-1 {
+        background-color: #3498db;
+    }
+    /* Blue */
+    .slide-2 {
+        background-color: #e74c3c;
+    }
+    /* Red */
+    .slide-3 {
+        background-color: #2ecc71;
+    }
+    /* Green */
+    .slide-4 {
+        background-color: #9b59b6;
+    }
+    /* Purple */
+
+    .navigation-manual {
+        position: absolute;
+        bottom: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .manual-btn {
+        width: 12px;
+        height: 12px;
+        border: 2px solid white;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+
+        .manual-btn:hover {
+            background: white;
+        }
+
+    /* Slide position logic */
+    #color-1:checked ~ .slides {
+        transform: translateX(0%);
+    }
+
+    #color-2:checked ~ .slides {
+        transform: translateX(-100%);
+    }
+
+    #color-3:checked ~ .slides {
+        transform: translateX(-200%);
+    }
+
+    #color-4:checked ~ .slides {
+        transform: translateX(-300%);
+    }
+</style>
+
 <div class="slider">
+    <input type="radio" name="radio-btn" id="color-1" checked>
+    <input type="radio" name="radio-btn" id="color-2">
+    <input type="radio" name="radio-btn" id="color-3">
+    <input type="radio" name="radio-btn" id="color-4">
+
     <div class="slides">
-        <input type="radio" name="radio-btn" id="img-1" checked>
-        <input type="radio" name="radio-btn" id="img-2">
-        <input type="radio" name="radio-btn" id="img-3">
-        <input type="radio" name="radio-btn" id="img-4">
+        <div class="slide slide-1">Quantum Blue</div>
+        <div class="slide slide-2">Cyber Red</div>
+        <div class="slide slide-3">Hack Green</div>
+        <div class="slide slide-4">Deep Purple</div>
+    </div>
 
-        <div class="slide first">
-            <!-- Replace the image link with your actual image link -->
-            <img src="https://www.microsoft.com/en-kh/p/hackbot/9p7n112xn02v" />
-        </div>
-        <div class="slide">
-            <img src="https://www.cnet.com/news/privacy/hacked-nsa-tools-put-windows-users-at-possible-risk/" />
-        </div>
-        <div class="slide">
-            <img src="https://www.digit.fyi/thousands-of-credentials-stolen-in-global-windows-and-linux-hack/" />
-        </div>
-        <div class="slide">
-            <img src="https://erp.today/microsoft-disables-windows-feature-amid-flurry-of-cyberattacks/" />
-        </div>
-
-        <div class="navigation-manual">
-            <label for="img-1" class="manual-btn"></label>
-            <label for="img-2" class="manual-btn"></label>
-            <label for="img-3" class="manual-btn"></label>
-            <label for="img-4" class="manual-btn"></label>
-        </div>
+    <div class="navigation-manual">
+        <label for="color-1" class="manual-btn"></label>
+        <label for="color-2" class="manual-btn"></label>
+        <label for="color-3" class="manual-btn"></label>
+        <label for="color-4" class="manual-btn"></label>
     </div>
 </div>
